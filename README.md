@@ -18,7 +18,7 @@ Prototype expected example:
 
  ``` 
  #include <iostream>
- #inlcude "petal/base.h"
+ #include "petal/base.h"
  using namespace petal;
  using namespace std;
  ia iaa;
