@@ -6,6 +6,7 @@ basic ia library
 - Compiled and the code works |:x:|
 - tested in windows 10 |:x:|
 - finished |:x:|
+- It work in other machines? |:x:|
 
 A mini library of ia for C++
 
