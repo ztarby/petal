@@ -1,4 +1,29 @@
-# petal
+# petal Alpha 0.0
 basic ia library
 
-Commin soon more info
+
+A mini library of ia for C++
+
+Now for only have the prototype. when the prototype is complete i will create the version using templates y vectors
+
+Prototype expected example: 
+
+ ``` 
+ #include <iostream>
+ #inlcude "petal/base.h"
+ using namespace petal;
+ using namespace std;
+ ia iaa;
+ 
+ 
+ int main() {
+  char text[] = "text";
+  iaa.cpuleer(text); // regrist the text in de database
+  string returntext = iaa.cpureturn(); // returns a text from the database 
+  iaa.cpuregistro(text) // another void for register
+  cout << returntext;
+  }
+```
+**Note:** this version its in alpha can be big changed (include the sintax)
+
+More info of the sintax in the wiki
