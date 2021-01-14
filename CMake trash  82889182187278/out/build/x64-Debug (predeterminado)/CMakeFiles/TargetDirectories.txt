@@ -1,5 +1,0 @@
-C:/Users/Ztarnux/source/repos/CMake trash  82889182187278/out/build/x64-Debug (predeterminado)/CMakeFiles/edit_cache.dir
-C:/Users/Ztarnux/source/repos/CMake trash  82889182187278/out/build/x64-Debug (predeterminado)/CMakeFiles/rebuild_cache.dir
-C:/Users/Ztarnux/source/repos/CMake trash  82889182187278/out/build/x64-Debug (predeterminado)/CMake trash  82889182187278/CMakeFiles/CMakeTarget.dir
-C:/Users/Ztarnux/source/repos/CMake trash  82889182187278/out/build/x64-Debug (predeterminado)/CMake trash  82889182187278/CMakeFiles/edit_cache.dir
-C:/Users/Ztarnux/source/repos/CMake trash  82889182187278/out/build/x64-Debug (predeterminado)/CMake trash  82889182187278/CMakeFiles/rebuild_cache.dir
