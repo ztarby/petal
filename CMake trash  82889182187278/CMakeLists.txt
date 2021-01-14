@@ -4,7 +4,7 @@
 cmake_minimum_required (VERSION 3.8)
 
 project ("CMake trash  82889182187278")
-
+ 
 # Incluya los subproyectos.
 add_subdirectory ("CMake trash  82889182187278")
 # add_library("base")
