@@ -4,7 +4,5 @@
 #pragma once
 
 #include <iostream>
-#include "petal_/base.h"
 
-petal::ia iaa;
 // TODO: Haga referencia aquí a los encabezados adicionales que el programa requiere.

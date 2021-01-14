@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 
-namespace petal {
+
 	constexpr int h = 8;
 	constexpr int cantidad = 10;
 	constexpr int cantidad_multp = cantidad * cantidad;
@@ -46,7 +46,7 @@ namespace petal {
 
 	};
 
-}
+
 
 
 template <typename x>
