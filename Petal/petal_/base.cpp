@@ -15,6 +15,8 @@ void forsave(string atext) {
 void ia::databaseT(string text) {
 	int i = 0;
 	for (auto &x : cpufrases) {
+		forsave("register ur text");
+
 		cpufrases[i] = text;
 		i++;
 	}
@@ -32,11 +34,11 @@ void ia::cpuleer(char eltexto[]) {
 	cpufrases[ultimom] = eltexto;
     int textodeluser = sizeof eltexto;
 	int i = 0;
-	while (eltexto[0] != NULL) {
+	while (eltexto[i] != NULL || eltexto[i] != "") {
 		i++;
-
 		
-		forsave("o");
+		
+		forsave("trying to stop in null");
 	}
 	i = textodeluser;
 	
@@ -44,6 +46,8 @@ void ia::cpuleer(char eltexto[]) {
 		
 		int k;
 		cin >> k;
+
+		forsave("register ur text");
 	
 		textos[i] = eltexto[i];
 		//ultimo[ultimom]++;
@@ -58,6 +62,8 @@ string ia::cpureturn() {
 	int x = 0;
 	while (cpufrases[x] != "") {
 		x++;
+		
+		forsave("trying to stop in null");
 	}
 	
 	
@@ -66,7 +72,7 @@ string ia::cpureturn() {
 		int random = rando(1000, 0);
 		posiblidad[i] = random;
 
-		
+		forsave("pulling random numbers");
 	}
 	int reg = 0;
 	
@@ -74,6 +80,8 @@ string ia::cpureturn() {
 		if (x > reg) {
 			reg = x;
 		}
+
+		forsave("searching the most big number");
 	}
 
 	for (int i = 0; i < cantidad; i++) {
@@ -81,6 +89,7 @@ string ia::cpureturn() {
 			numerocorrecto = i;
 			break;
 		}
+		forsave("searching the position of the most big number");
 	}
 
 	if (ishave = true) {
@@ -91,7 +100,7 @@ string ia::cpureturn() {
 	ultimapalabrareg = cpufrases[numerocorrecto];
      //return "null";
 }
-void ia::registro(string textodeluser) {
+void ia::registro(string textodeluser) { //do not use!!!!!!
 	bool noterminar = true;
 	int buscar = 0;
 	while (noterminar) {
@@ -110,7 +119,7 @@ void ia::registro(string textodeluser) {
 		buscar++;
 	}
 }
-void ia::cpuregistro(string textodeluser) {
+void ia::cpuregistro(string textodeluser) { 
 	
     regstr.fila = numerocorrecto;
 	posiblidad[numerocorrecto]++;
