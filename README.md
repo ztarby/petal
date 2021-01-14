@@ -34,4 +34,6 @@ Prototype expected example:
 ```
 **Note:** this version its in alpha can be big changed (include the sintax)
 
+**Another Note:** Cloning this repository can have cmake errrors because cache and directores
+
 More info of the sintax in the wiki
