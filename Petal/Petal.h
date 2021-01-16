@@ -4,6 +4,8 @@
 #pragma once
 
 #include <iostream>
+#include <tuple>
+#include <vector>
 
 
 // TODO: Haga referencia aquí a los encabezados adicionales que el programa requiere.

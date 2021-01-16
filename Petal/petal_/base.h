@@ -46,13 +46,10 @@
 
 	};
 
+	
 
 
 
-template <typename x>
-x hg(const x& h ) {
-	return h + 2;
-}
 void forsave(std::string atext);
 /*
 auto ehd(const x) {
