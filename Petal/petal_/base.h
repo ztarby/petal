@@ -51,8 +51,4 @@
 
 
 void forsave(std::string atext);
-/*
-auto ehd(const x) {
-	return x;
-}
-*/
+

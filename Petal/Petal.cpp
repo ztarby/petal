@@ -7,14 +7,17 @@ using namespace std;
 
 int main()
 {
-	cout << "sammmy best dev, and me lol, why ur here, Main code coming soon here" << endl;
+	cout << "Main console, example app" << endl;
 	return 0;
 	
-	aaa<6>;
+	
+	auto cj = X<int>;
+	int k;
+	 pp<int>;
 	
 }
 
 
 
-template <const int ka > 
-int aaa[ka];
+template <typename t > 
+class pp;
