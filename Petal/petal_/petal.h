@@ -1,13 +1,27 @@
 #pragma once
-#include <string>
+#include <iostream>
 #include <vector>
+//#include "petalconfig.h"
 
 
 
 using namespace std;
 
-template <typename T>
-T petal_print(const T& object);
+#ifndef TST
+#define TST
 
-template <typename... args , typename T>
-T petal_print2(const args&... objects);
+template <typename T>
+class tst {
+
+public:
+    T petal_return();
+    void petal_reg();
+    void petal_algorithm();
+};
+#endif
+
+
+
+
+
+

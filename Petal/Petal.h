@@ -8,7 +8,7 @@
 #include <vector>
 #include "petal_/petal.h"
 
-auto mainobjects = X<string>;
+
 
 
 // TODO: Haga referencia aquí a los encabezados adicionales que el programa requiere.

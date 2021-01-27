@@ -1,14 +1,21 @@
 #include "petal.h"
-#include "petalconfig.h"
+//#include "petalconfig.h"
+#include <iostream>
+
+using namespace std;
 
 template<typename T>
-inline T petal_print(const T& object)
+inline T tst<T>::petal_return()
 {
 	return T();
 }
 
-template<typename ...args, typename T>
-T petal_print2(const args & ...objects)
+template<typename T>
+void tst<T>::petal_reg()
 {
-	return T();
+}
+
+template<typename T>
+void tst<T>::petal_algorithm()
+{
 }

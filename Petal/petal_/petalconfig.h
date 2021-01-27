@@ -6,5 +6,5 @@
 using namespace std;
 
 //set up the config for the library (do not change the names!!!!!!!)
-vector<string> mainobjects;
-tuple<string> secondary_objects;
+vector<int> mainobjects;
+//tuple<string> secondary_objects;
