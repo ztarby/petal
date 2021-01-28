@@ -9,6 +9,7 @@
 #include "petal_/petal.h"
 
 
-
+arraydouble<int> test2;
+petal<int> test;
 
 // TODO: Haga referencia aquí a los encabezados adicionales que el programa requiere.
