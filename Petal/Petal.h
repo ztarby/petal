@@ -7,9 +7,9 @@
 #include <tuple>
 #include <vector>
 #include "petal_/petal.h"
+#include "petal_/extras.h"
 
-
-arraydouble<int> test2;
+arraydouble<int , 3> test2;
 petal<int> test;
 
 // TODO: Haga referencia aquí a los encabezados adicionales que el programa requiere.
