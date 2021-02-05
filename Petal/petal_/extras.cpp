@@ -1,5 +1,10 @@
 #include "extras.h"
+#include <iostream>
+#include <string>
 
+using namespace std;
+
+/*
 
 template<typename T, size_t S>
 T arraydouble<T, S>::back(int one, int two)
@@ -53,23 +58,32 @@ T arraydouble<T, S>::last(const int one, bool invert)
 
 template <typename T, size_t S>
 T arraydouble<T, S>::full(const T& obj) {
-	for (int i; i < S; i++) {
+	for (int i = 0; i < S; i++) {
 		forsave("registing the object1: " + i);
 		matr[i][0] = obj;
 	}
-	for (int i; i < S; i++) {
+	for (int i = 0; i < S; i++) {
 		forsave("registing the object2: " + i);
 		matr[0][i] = obj;
 	}
 	fulling = obj;
 }
-
-
-
 template<typename T, size_t S>
-void arraydouble<T, S>::forsave(string text)
+void arraydouble<T, S>::forsave(const T& text)
 {
      string ssss;
 	cin >> ssss;
 	cout << text;
 }
+
+*/
+
+// tests *******************
+template<typename T, size_t S>
+T arraydouble<T, S>::test(const T& obj)
+{
+	return T();
+}
+
+
+template arraydouble<int, 10>;
