@@ -45,8 +45,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2,
-				3
+				2
 			]
 		}
 	],
@@ -84,8 +83,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2,
-				3
+				2
 			]
 		},
 		{
@@ -113,12 +111,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Petal/petal_/petal.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Petal/petal_/extras.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

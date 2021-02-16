@@ -13,7 +13,7 @@ using namespace std;
 template <typename T , size_t S>
 class petal {
 private:
-    matrix[S][S];
+   T matrix[S][S];
     vector<T> mainobjects;
 public:
     T petal_return();
