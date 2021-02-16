@@ -7,10 +7,10 @@ using namespace std;
 
 int main()
 {
-	tstt<int> tryit;
-	//cout << "Main console, example app" << endl;
-	auto a = tryit.test2();
-	cout << a;
+	
+	cout << "Main console, example app" << endl;
+	p.petal_reg(1);
+
 /*
 	int x = 100;
 	int* a;

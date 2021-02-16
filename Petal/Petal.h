@@ -3,9 +3,9 @@
 
 #pragma once
 #include <iostream>
-//#include <iostream>
 
-#include "petal_/Test(trash_files)/test.h"
 
+#include "petal_/petal.h"
+petal<int , 5> p;
 
 // TODO: Haga referencia aquí a los encabezados adicionales que el programa requiere.
