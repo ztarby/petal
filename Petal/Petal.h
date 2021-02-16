@@ -2,13 +2,10 @@
 // o archivos de inclusión específicos de un proyecto.
 
 #pragma once
-
 #include <iostream>
-#include <tuple>
-#include <vector>
-#include "petal_/petal.h"
-#include "petal_/extras.h"
+//#include <iostream>
 
-arraydouble<int, 3> test2;
+#include "petal_/Test(trash_files)/test.h"
+
 
 // TODO: Haga referencia aquí a los encabezados adicionales que el programa requiere.

@@ -7,17 +7,17 @@ using namespace std;
 
 int main()
 {
-	cout << "Main console, example app" << endl;
+	tstt<int> tryit;
+	//cout << "Main console, example app" << endl;
+	auto a = tryit.test2();
+	cout << a;
+/*
+	int x = 100;
+	int* a;
+	a = &x;
 	
-	int a = test2.test(1);
-	cout << a << endl;
-	/*
-	int testnum = 323;
-	
-	test2.full(6);
-	test2.persopush(testnum, true, true , 0 , 0);
-	int testt = test2.back(0,0);
-	cout << testt;
-	*/
+	cout << &x;
+	delete a;
+*/
 	return 0;
 }

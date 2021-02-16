@@ -4,8 +4,8 @@
 
 #ifndef ARRAYDOUBLE
 #define ARRAYDOUBLE
-#include <iostream>
-#include <string>
+//#include <iostream>
+//#include <string>
 
 template <typename T, size_t S>
 class arraydouble {
