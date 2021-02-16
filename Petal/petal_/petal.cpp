@@ -1,6 +1,6 @@
 #include "petal.h"
 
-
+template petal<int, 10>;
 
 using namespace std;
 

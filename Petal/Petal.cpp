@@ -9,7 +9,7 @@ int main()
 {
 	
 	cout << "Main console, example app" << endl;
-	p.petal_reg(1);
+	cout << p.petal_return();
 
 /*
 	int x = 100;
