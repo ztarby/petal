@@ -7,10 +7,11 @@ using namespace std;
 
 int main()
 {
-	tstt<int> tryit;
-	//cout << "Main console, example app" << endl;
-	auto a = tryit.test2();
-	cout << a;
+	
+	cout << "Main console, example app" << endl;
+	
+
+	cout << "(o゜▽゜)o☆ end /n";
 /*
 	int x = 100;
 	int* a;
