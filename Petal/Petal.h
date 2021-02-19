@@ -6,6 +6,6 @@
 
 
 #include "petal_/petal.h"
-petal<int , 5> p;
+
 
 // TODO: Haga referencia aquí a los encabezados adicionales que el programa requiere.

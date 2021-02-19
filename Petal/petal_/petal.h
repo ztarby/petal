@@ -1,15 +1,11 @@
 #pragma once
-#include <iostream>
-#include <vector>
-
-
-
-
-using namespace std;
 
 #ifndef PETAL
 #define PETAL
+#include <iostream>
+#include <vector>
 
+using namespace std;
 template <typename T , size_t S>
 class petal {
 private:

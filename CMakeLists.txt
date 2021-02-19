@@ -7,3 +7,4 @@ project ("NewRepo")
 
 # Incluya los subproyectos.
 add_subdirectory ("Petal")
+#add_library(a , static , )
