@@ -7,4 +7,4 @@ project ("NewRepo")
 
 # Incluya los subproyectos.
 add_subdirectory ("Petal")
-#add_library(a , static , )
+#add_library("a.lib" , static , "C:/Users\Ztarnux\source\repos\ya basta c++ static librari\Debug")
