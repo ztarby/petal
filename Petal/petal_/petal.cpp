@@ -1,25 +1,22 @@
 #include "petal.h"
-//#include "petalconfig.h"
-
 
 using namespace std;
 
-template<typename T>
-inline T petal<T>::petal_return()
+template<typename T, size_t S>
+inline T petal<T, S>::petal_return()
 {
 	return T();
 }
 
-template<typename T>
-void petal<T>::petal_reg(const T& object)
+template<typename T, size_t S>
+void petal<T,S>::petal_reg(const T& object)
 {
 	mainobjects.push_back(object);
 }
 
-template<typename T>
-void petal<T>::petal_algorithm()
+template<typename T, size_t S>
+void petal<T,S>::petal_algorithm()
 {
 }
 
-
-
+template petal<int, 100>;
