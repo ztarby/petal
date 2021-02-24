@@ -1,5 +1,5 @@
 # petal Alpha 0.0 :tulip:
-basic ia library
+A mini library of ia for C++ (thats the plan that i think)
 
 
 - tested in linux |:x:|
@@ -8,32 +8,25 @@ basic ia library
 - finished |:x:|
 - It work in other machines? |:x:|
 
-A mini library of ia for C++
+An simple ia same like machine learning with templates
 
-regist the text , then with the posiblity  home many times you use that text return the text in the data base + random num. (a poor explication sorry)
+Some of the functions are ``` petal_reg(some object)   ``` or  ```  petal_return();  ```  
 
-Now for only have the prototype. when the prototype is complete i will create the version using templates y vectors
+syntax example:  
 
-Prototype expected example: 
-
- ``` 
- #include <iostream>
- #include "petal/base.h"
- using namespace petal;
- using namespace std;
- ia iaa;
- 
+ ```c++ 
+ #include "petal_/petal.h"
  
  int main() {
-  char text[] = "text";
-  iaa.cpuleer(text); // regrist the text in de database
-  string returntext = iaa.cpureturn(); // returns a text from the database 
-  iaa.cpuregistro(text) // another void for register
-  cout << returntext;
-  }
+petal<int , 10> ia;
+
+ia.petal_return();
+ia.petal_reg(123);
+ia.petal_algorithm();
+}
 ```
 **Note:** this version its in alpha can be big changed (include the sintax)
 
-**Another Note:** Cloning this repository can have cmake errrors because cache and directores
+**Another Note:** Cloning this repository can have errors (report it in issues if you have it!)
 
 More info of the sintax in the wiki
