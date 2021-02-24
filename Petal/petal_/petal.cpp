@@ -17,6 +17,7 @@ void petal<T,S>::petal_reg(const T& object)
 template<typename T, size_t S>
 void petal<T,S>::petal_algorithm()
 {
+
 }
 
 template petal<int, 100>;

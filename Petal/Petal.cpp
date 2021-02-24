@@ -10,15 +10,7 @@ int main()
 	
 	cout << "Main console, example app" << endl;
 	
-
 	cout << "(o゜▽゜)o☆ end /n";
-/*
-	int x = 100;
-	int* a;
-	a = &x;
-	
-	cout << &x;
-	delete a;
-*/
+
 	return 0;
 }
