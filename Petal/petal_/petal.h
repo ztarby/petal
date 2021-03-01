@@ -13,7 +13,7 @@ template <typename T , size_t S>
 class petal {
 private:
     vector<T> mainobjects;
-    layers[S][S];
+    int layers[S][S];
 public:
     T petal_return();
     void petal_reg(const T& object);
@@ -21,11 +21,3 @@ public:
 };
 
 #endif
-
-
-
-
-
-
-
-
