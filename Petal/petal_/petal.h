@@ -1,10 +1,9 @@
 #pragma once
 
-
-using namespace std;
-
 #ifndef PETAL
 #define PETAL
+
+using namespace std;
 
 #include <iostream>
 #include <vector>
