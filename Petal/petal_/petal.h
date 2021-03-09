@@ -13,6 +13,7 @@ class petal {
 private:
     vector<T> mainobjects;
     int layers[S][S];
+    int layer[S];
 public:
     T petal_return();
     void petal_reg(const T& object);
