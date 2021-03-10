@@ -1,0 +1,5 @@
+C:/Users/Ztarnux/source/repos/NewRepo/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Ztarnux/source/repos/NewRepo/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Ztarnux/source/repos/NewRepo/out/build/x64-Debug/Petal/CMakeFiles/Petal.dir
+C:/Users/Ztarnux/source/repos/NewRepo/out/build/x64-Debug/Petal/CMakeFiles/edit_cache.dir
+C:/Users/Ztarnux/source/repos/NewRepo/out/build/x64-Debug/Petal/CMakeFiles/rebuild_cache.dir
