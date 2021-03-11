@@ -5,6 +5,8 @@
 #include <iostream>
 #include "petal_/petal.h"
 
-
-
+#include <Windows.h>
+//
+//
+// 
 // TODO: Haga referencia aquí a los encabezados adicionales que el programa requiere.
