@@ -6,6 +6,7 @@
 #include "petal_/petal.h"
 
 #include <Windows.h>
+#include<windows.graphics.directx.h>
 //
 //
 // 
