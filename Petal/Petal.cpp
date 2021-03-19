@@ -9,8 +9,8 @@ int main()
 {
 	
 	cout << "Main console, example app" << endl;
-	petal<int,5> a;
-	a.petal_return();
+
+    
 	cout << "(o゜▽゜)o☆ end /n";
 	
 	return 0;

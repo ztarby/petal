@@ -4,10 +4,10 @@
 #pragma once
 #include <iostream>
 #include "petal_/petal.h"
-
+#include "petal_/Test(trash_files)/pt.hpp"
+/*
 #include <Windows.h>
 #include<windows.graphics.directx.h>
 //
-//
-// 
+*/ 
 // TODO: Haga referencia aquí a los encabezados adicionales que el programa requiere.

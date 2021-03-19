@@ -92,6 +92,13 @@ build Petal\CMakeFiles\Petal.dir\petal_\Test(trash_files)\extras.cpp.obj: CXX_CO
   TARGET_COMPILE_PDB = Petal\CMakeFiles\Petal.dir\
   TARGET_PDB = Petal\Petal.pdb
 
+build Petal\CMakeFiles\Petal.dir\petal_\Test(trash_files)\pt.cpp.obj: CXX_COMPILER__Petal_Debug ..\..\..\Petal\petal_\Test(trash_files)\pt.cpp || cmake_object_order_depends_target_Petal
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = Petal\CMakeFiles\Petal.dir
+  OBJECT_FILE_DIR = Petal\CMakeFiles\Petal.dir\petal_\Test(trash_files)
+  TARGET_COMPILE_PDB = Petal\CMakeFiles\Petal.dir\
+  TARGET_PDB = Petal\Petal.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Petal
@@ -100,7 +107,7 @@ build Petal\CMakeFiles\Petal.dir\petal_\Test(trash_files)\extras.cpp.obj: CXX_CO
 #############################################
 # Link the executable Petal\Petal.exe
 
-build Petal\Petal.exe: CXX_EXECUTABLE_LINKER__Petal_Debug Petal\CMakeFiles\Petal.dir\Petal.cpp.obj Petal\CMakeFiles\Petal.dir\petal_\petal.cpp.obj Petal\CMakeFiles\Petal.dir\petal_\Test(trash_files)\extras.cpp.obj
+build Petal\Petal.exe: CXX_EXECUTABLE_LINKER__Petal_Debug Petal\CMakeFiles\Petal.dir\Petal.cpp.obj Petal\CMakeFiles\Petal.dir\petal_\petal.cpp.obj Petal\CMakeFiles\Petal.dir\petal_\Test(trash_files)\extras.cpp.obj Petal\CMakeFiles\Petal.dir\petal_\Test(trash_files)\pt.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

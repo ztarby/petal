@@ -28,7 +28,7 @@ void petal<T,S>::petal_algorithm(const T& object)
 		}
 		//anti infinite for and a debug text
 		std::cin >> xe;
-		std::cout << layers[z][counter2_2[z]] << std::endl;
+		std::cout << layers[z][layer[z]] << std::endl;
 
 		z++;
 		

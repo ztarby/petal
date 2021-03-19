@@ -12,7 +12,7 @@ template <typename T , size_t S>
 class petal {
 private:
     vector<T> mainobjects;
-    int layers[S][S];
+    T layers[S][S];
     int layer[S];
 
     
