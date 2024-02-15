@@ -1,4 +1,6 @@
 # petal Alpha 0.0 :tulip:
+waring: i don't kwon what is this anymore, i forgot the idea code.
+
 A mini library of ia for C++ (thats the plan that i think)
 
 
